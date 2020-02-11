@@ -1,0 +1,12 @@
+パラメータ, 説明
+default_server, リクエストがデフォルトで処理されるaddress:portのペアを定義する
+setfib, 待ち受けているソケットにFIBを設定する。
+backlog, listen()のbacklogパラメータを指定する
+rcvbuf, 待ち受けているソケットにSO_RCVBUFパラメータを設定する
+sndbuf, 待ち受けているソケットにSO_SNDBUFパラメータを設定する
+accept_filter, accept filter名としてdatareadyもしくはhttpreadyを設定する
+deferred, 遅延accept()を用いるためにTCP_DEFER_ACCEPTオプションを設定する。
+bind, address:portのペアに対して個別にbind()を行う
+ipv6only, IPV6_V6ONLYパラメータの値を指定する
+ssl, このポートではHTTPSのコネクション以外実行しないことを示す
+so_keepalive, 待ち受けているソケットに対して、TCPキープアライブを設定する。
